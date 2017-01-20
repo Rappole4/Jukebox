@@ -1,0 +1,45 @@
+#div1 {
+	background-color:lightgray;
+	width:15%;
+	height:80%;
+	text-align:center;
+}
+#div2 {
+	margin:10% 30% 0%;
+	padding:2%;
+	text-align:center;
+	vertical-align:center;
+	border:solid black 6px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	background-image:url("jukebox.jpg");
+	background-position:center;
+	background-size:250%;
+	width:40%;
+	height:450px 
+}
+html {
+	background-image:url("dance.jpg");
+	background-size:cover;
+	background-repeat:none;
+}
+header {
+	margin:15% 10%;
+	background-color:rgba(133,133,133,0.7)
+}
+#play {
+	width:28%;
+	float:left;
+	border-radius:50%;
+}
+#stop {
+	width:28%;
+	float:right;
+	border-radius:50%;
+}
+#next {
+	width:20%;
+	text-align:center;
+	margin:20% 0% 0%;
+	border-radius:50%;
+}
