@@ -13,11 +13,10 @@ function Library(musiclist){
 	var Playlist = new Library();
 	var Eye = new Library();
 	var Fight = new Library();
-	Eye.addMusic("eye-of-tiger.mp3");
-	Fight.addMusic("fight_song.mp3");
-	Playlist.addMusic("eye-of-tiger.mp3");
-	Playlist.addMusic("fight-song.mp3");
-	Playlist.addMusic("off.mp3");
+	Eye.addMusic("audio/eye-of-tiger.mp3");
+	Fight.addMusic("audio/fight_song.mp3");
+	Playlist.addMusic("audio/eye-of-tiger.mp3");
+	Playlist.addMusic("audio/fight-song.mp3");
 
 	var allMusic, tiger, fight;
 
@@ -38,9 +37,9 @@ stops.onclick = function() {
 }
 next.onclick = function() {
 		if (/fight-song\.mp3$/.test(music.src)||music.src==""){
-			return music.src="eye-of-tiger.mp3"
+			return music.src="audio/eye-of-tiger.mp3"
 		} else if ( /eye-of-tiger\.mp3$/.test(music.src) ){
-				return music.src="fight-song.mp3"
+				return music.src="audio/fight-song.mp3"
 		}
 }
 allMusic.onclick = function() {
