@@ -13,8 +13,8 @@ function Library(musiclist){
 	var Playlist = new Library();
 	var Eye = new Library();
 	var Fight = new Library();
-	Eye.addMusic("audio/eye-of-tiger.mp3");
-	Fight.addMusic("audio/fight_song.mp3");
+	Eye.addMusic("Eye of the Tiger");
+	Fight.addMusic("This is My Fight Song");
 	Playlist.addMusic("audio/eye-of-tiger.mp3");
 	Playlist.addMusic("audio/fight-song.mp3");
 
