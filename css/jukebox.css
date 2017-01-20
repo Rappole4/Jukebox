@@ -12,14 +12,14 @@
 	border:solid black 6px;
 	border-top-right-radius: 50%;
 	border-top-left-radius: 50%;
-	background-image:url("jukebox.jpg");
+	background-image:url("../images/jukebox.jpg");
 	background-position:center;
 	background-size:250%;
 	width:40%;
 	height:450px 
 }
 html {
-	background-image:url("dance.jpg");
+	background-image:url("../images/dance.jpg");
 	background-size:cover;
 	background-repeat:none;
 }
